@@ -1,0 +1,46 @@
+.aslogo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 8%;
+  background: #fff;
+}
+
+.logo {
+height: 40px;
+width: 80px;
+}
+
+.pesquisa{
+  background-color: #c5c5c5;
+  border: none;
+  padding:1px 15px;
+  width: 400px;
+  height: 45px;
+  border-radius: 7px;
+  outline: none;
+}
+
+.icons { width: 40px; 
+    height: 40px;
+    display: flex; }
+
+/* Parte Cinza (Links) */
+.categorias {
+  background-color: #cccbcb;
+  padding: 8px 0;
+}
+
+.categorias ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 70px;
+  margin: 0;
+}
+
+.categorias li {
+  font-size: 16px;
+  cursor: pointer;
+  color: #131313;
+}

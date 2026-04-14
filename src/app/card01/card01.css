@@ -1,0 +1,34 @@
+.capa-geral{
+  background-color: #e5e5e5;
+  padding: 30px 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-card {
+  width: 100%;
+  max-width: 1000px;
+  border-radius: 15px;
+  overflow: hidden;
+  background: #000;
+}
+
+
+.botoes {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+}
+
+.botao{
+  width: 22px;
+  height: 22px;
+  background-color: #bbbbbb;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.botao.active {
+  background-color: #7a7a7a;
+}

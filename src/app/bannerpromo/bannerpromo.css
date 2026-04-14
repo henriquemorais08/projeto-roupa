@@ -1,0 +1,14 @@
+.promo-banner {
+  background-color: #f1e47d; /* Amarelo da imagem */
+  text-align: center;
+  padding: 12px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.highlight {
+  color: #ff4d4d; /* Vermelho do 35% */
+}
