@@ -1,0 +1,60 @@
+.container-cupons {
+  padding: 50px 5%;
+  text-align: center;
+  background-color: #fff;
+  font-family: sans-serif;
+}
+
+.titulo-sessao {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.oscards {
+display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap; /* <--- ESSA LINHA É A CHAVE! Ela permite que os itens pulem para baixo */
+  justify-content: center; 
+  gap: 30px; 
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;       
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-box {
+  width: 100%;
+  aspect-ratio: 1 / 1.2; /* Mantém a proporção retangular das fotos */
+  overflow: hidden;
+  border-radius: 8px; /* Bordas arredondadas suaves como na imagem */
+  background-color: #eee;
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info {
+  margin-top: 15px;
+}
+
+.preco {
+  color: #ff4d4d; /* Cor vermelha do preço */
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.parcelas {
+  color: #333;
+  font-size: 0.9rem;
+  margin: 5px 0;
+}
