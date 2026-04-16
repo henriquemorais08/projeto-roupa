@@ -1,61 +1,62 @@
-.todo-vendas {
+.titulo {
   padding: 40px 20px;
   text-align: center;
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4; /* Cor de fundo leve */
+  background-color: #f4f4f4; 
 }
 
-.titulo{
+.titulo1{
   font-size: 2rem;
   margin-bottom: 30px;
   font-weight: bold;
 }
 
-.oscards {
+.alinhamento {
   display: flex;
   justify-content: center;
   gap: 20px;
-
+  flex-wrap: wrap; 
 }
 
 .card {
   background: #fff;
   padding: 15px;
   border-radius: 8px;
-  width: 280px; /* Largura fixa de cada card */
-  
+  width: 280px; 
 
+  
 }
 
 
-.image-box {
+
+.imagens {
   width: 100%;
-  height: 350px; /* Altura padrão para todas as fotos */
+  height: 350px; 
   overflow: hidden;
   border-radius: 5px;
   margin-bottom: 15px;
 }
 
-.image-box img {
+.imagens img {
   width: 100%;
   height: 100%;
-
+  object-fit: cover; 
 }
 
-.card h3 {
+.carde h3 {
   font-size: 1.1rem;
   margin: 10px 0;
   color: #333;
 }
 
 .preco {
-  color: #e74c3c; /* Vermelho como na imagem */
+  color: #e74c3c; 
   font-weight: bold;
   font-size: 1.2rem;
   margin: 5px 0;
 }
 
-.parcelas {
+.preco2 {
   font-size: 0.9rem;
   color: #666;
 }

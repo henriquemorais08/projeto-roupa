@@ -15,7 +15,7 @@
 .oscards {
 display: flex;
   flex-direction: row; 
-  flex-wrap: wrap; /* <--- ESSA LINHA É A CHAVE! Ela permite que os itens pulem para baixo */
+  flex-wrap: wrap; 
   justify-content: center; 
   gap: 30px; 
   max-width: 1000px;
@@ -30,9 +30,9 @@ display: flex;
 
 .image-box {
   width: 100%;
-  aspect-ratio: 1 / 1.2; /* Mantém a proporção retangular das fotos */
+  aspect-ratio: 1 / 1.2; 
   overflow: hidden;
-  border-radius: 8px; /* Bordas arredondadas suaves como na imagem */
+  border-radius: 8px; 
   background-color: #eee;
 }
 
@@ -47,7 +47,7 @@ display: flex;
 }
 
 .preco {
-  color: #ff4d4d; /* Cor vermelha do preço */
+  color: #ff4d4d; 
   font-weight: bold;
   font-size: 1.1rem;
   margin: 0;

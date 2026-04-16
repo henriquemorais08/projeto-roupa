@@ -6,11 +6,12 @@ import { Card01 } from './card01/card01';
 import { Card02 } from './card02/card02';
 import { Card03 } from './card03/card03';
 import { Card04 } from './card04/card04';
+import { Final } from './final/final';
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,Bannerpromo,Banner,Card01,Card02,Card03,Card04],
+  imports: [RouterOutlet,Bannerpromo,Banner,Card01,Card02,Card03,Card04,Final],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
